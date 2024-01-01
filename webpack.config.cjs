@@ -6,6 +6,7 @@ const TerserPlugin = require('terser-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
+  mode: 'production',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'), //configuracion de salida, usando el estandar
@@ -13,13 +14,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js'], //extensiones para que webpack lea los archivos
-    alias: {
-      //configuracion de los alias en webpack
-      '@utils': path.resolve(__dirname, 'src/utils/'),
-      '@templates': path.resolve(__dirname, 'src/templates/'),
-      '@styles': path.resolve(__dirname, 'src/styles/'),
-      '@images': path.resolve(__dirname, 'src/assets/images/')
-    }
   },
   module: {
     rules: [
@@ -34,7 +28,7 @@ module.exports = {
       {
         test: /\.css|.styl$/i, //creacion del loader, para el reconocimiento del css
         use: [MiniCssExtractPlugin.loader, 'css-loader']
-      },
+      }
     ]
   },
   plugins: [
