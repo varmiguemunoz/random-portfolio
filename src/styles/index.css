@@ -9,7 +9,7 @@ body {
 }
 
 #root {
-background-color: #151F30;
+background-color: #F6F6FC;
 height: 100vh;
 display: flex;
 justify-content: center;
@@ -247,7 +247,7 @@ body {
 	width: 100%;
 	background: #f9f9f9;
 	border-radius: 8px;
-	box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 	overflow: hidden;
 	text-align: center;
 	z-index: 5
@@ -339,11 +339,11 @@ body {
 
 @keyframes stroke-draw {
   from {
-    stroke: black;
+    stroke: #F6F6FC;
     stroke-dasharray: 1;
   }
   to {
-    stroke: #d6d6d6;
+    stroke: #F6F6FC;
     transform: rotate(180deg);
     stroke-dasharray: 8;
   }
