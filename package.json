@@ -1,0 +1,30 @@
+{
+  "name": "random-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio randomized web app 🧠",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npx jest",
+    "start":" node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varmiguemunoz/random-portfolio.git"
+  },
+  "keywords": [
+    "javascript",
+    "vanilla",
+    "css",
+    "html"
+  ],
+  "author": "varmiguemunoz <varmiguemunoz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varmiguemunoz/random-portfolio/issues"
+  },
+  "homepage": "https://github.com/varmiguemunoz/random-portfolio#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1"
+  }
+}
