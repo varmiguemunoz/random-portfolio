@@ -8,4 +8,3 @@ The Portfolio Randomizer is a frontend application designed to provide a dynamic
 2. Install dependencies using npm or yarn.
    ```bash
    npm install
-```
