@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio randomized web app 🧠",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "npx jest",
     "start":" node src/index.js"
