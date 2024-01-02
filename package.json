@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "npx jest",
-    "build": "npx webpack --config webpack.config.cjs --mode production"
+    "build": "npx webpack --config webpack.config.cjs --mode development",
+    "start": "npx webpack server --config webpack.config.cjs"
   },
   "repository": {
     "type": "git",
