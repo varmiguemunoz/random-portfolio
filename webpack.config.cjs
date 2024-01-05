@@ -14,7 +14,7 @@ module.exports = {
     filename: '[name].[contenthash].js' //configuracion de hashes - identificacion de cada proyecto con un hash
   },
   resolve: {
-    extensions: ['.js'] //extensiones para que webpack lea los archivos
+    extensions: ['.js', '.css'] //extensiones para que webpack lea los archivos
   },
   module: {
     rules: [
